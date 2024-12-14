@@ -1,0 +1,65 @@
+menu.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - THE MANASA RESTAURANT</title>
+  <style>
+    body { font-family: Arial, georgia; background: RED; margin: 0; color: #333; }
+    .header, .footer { background: purple; color:red; text-align: center; padding: 1rem; }
+    .header nav ul { list-style: none; display: flex; justify-content: center; padding: 0; }
+    .header nav ul li { margin: 0 1rem; }
+    .header nav ul li a { color:orange; text-decoration: none; font-size: 1.1rem; }
+    .menu { padding: 2rem; text-align: center; }
+    .menu ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+    .menu ul li { background: orange; border: 1px solid red; padding: 1rem; border-radius: 5px; }
+    .menu ul li:hover { transform: scale(1.05); transition: transform 0.3s; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>DELICIOUS MENU</h1>
+    <nav>
+      <ul>
+        <li><a href="rest.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="admin.html">Administration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+<section class="menu">
+    <h2>Our Menu</h2>
+    <ul>
+        <li>
+            <img src="choc dessert.jpg" alt="Chocolate dessert" width="150" height="125">
+            Dessert - $150
+        </li>
+        <li>
+            <img src="honey cake.jpg" alt="Honey cake" width="150" height="125">
+            FALLODA - $90
+        </li>
+        <li>
+            <img src="salad.jpg" alt="Fruit Salad" width="150" height="125">
+            Fruit Salad- $120
+        </li>
+        <li>
+            <img src="strawb.jpg" alt="Strawberry Milkshake" width="150" height="100">
+            Strawberry Milkshake- $40
+        </li>
+        <li>
+            <img src="brownie.jpg" alt="Browny Cake" width="150" height="125">
+            CREAMY CAKE - $350
+        </li>
+        <li>
+            <img src="pizza.jpg" alt="Pizza" width="150" height="125">
+            PIZZA - $999
+        </li>
+        <li>
+            <img src="biriyani.jpg" alt="Chicken Biriyani " width="150" height="125">
+            CHICKEN BIRIYANI - $200
+        </li>
+        
+    </ul>
+    </section>

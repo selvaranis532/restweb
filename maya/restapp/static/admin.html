@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE MANASA - Administration</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            line-height: 1.6;
+            color: black;
+            background-color:whitesmoke;
+            box-sizing: border-box;
+        }
+
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        header {
+            background: aquamarine;
+            color:blue;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 6px red;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: rgb(33, 121, 176);
+            font-weight: 500;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+            font-size: 1rem;
+        }
+
+        header nav a:hover {
+            color:blue;
+        }
+
+        .admin-container {
+            padding: 40px 20px;
+            background:violet;
+            text-align: center;
+        }
+
+        .admin-container h1 {
+            font-size: 2.5rem;
+            color: blue;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .admin-items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .admin-item {
+            background: rgb(180, 185, 153);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px red;
+            width: 280px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            text-align: left;
+        }
+
+        .admin-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .admin-item:hover {
+            transform: scale(1.05);
+        }
+
+        .admin-details {
+            padding: 15px;
+        }
+
+        .admin-details h3 {
+            font-size: 1.4rem;
+            color:whitesmoke;
+            margin-bottom: 8px;
+        }
+
+        .admin-details p {
+            font-size: 1rem;
+            color: whitesmoke;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: whitesmoke;
+            color: red;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        footer a {
+            color: yellow;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ecf0f1;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .admin-items {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .admin-item {
+                width: 100%;
+            }
+
+            header nav a {
+                font-size: 0.9rem;
+                margin: 0 5px;
+            }
+        }
+    </style>
+</head>
+<body>    
+
+<header>
+        <h1>THE MANASA RESTURANT</h1>
+        <nav>
+            <a href="rest.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+            <a href="admin.html">Administration</a>
+        </nav>
+    </header>
+
+    <div class="admin-container">
+        <h1>OUR BACKBONES</h1>
+        <div class="admin-items">
+            <div class="admin-item">
+                <img src="manasa.jpg" alt="CEO">
+                <div class="admin-details">
+                    <h3>Manasa</h3>
+                    <p>CEO of THE MANASA RESTURANT</p>
+                </div>
+            </div>
+
+            <div class="admin-item">
+                <img src="sam.jpg" alt="Manager">
+                <div class="admin-details">
+                    <h3>Samantha</h3>
+                    <p>Manager of THE MANASA RESTURANT</p>
+                </div>
+            </div>
+
+            <div class="admin-item">
+                <img src="chitra.jpg" alt="Master Chef">
+                <div class="admin-details">
+                    <h3>Chithra</h3>
+                    <p>Master Chef of THE  MANASA RESTURANT</p>
+                </div>
+            </div>
+
+            <div class="admin-item">
+                <img src="swathi.jpg" alt="Assistant Managing Director">
+                <div class="admin-details">
+                    <h3>Sawathi</h3>
+                    <p>Assistant Managing Director of THE MANASA RESTURANT</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 THE MANASA RESTURANT. All rights reserved. | <a href="rest.html">Back to Home</a></p>
+    </footer>
+
+</body>
+</html>
+
+
