@@ -431,10 +431,10 @@ menu.html
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (34)-1.png>)
+![alt text](<Screenshot (35).png>)
 ![alt text](<Screenshot (31).png>)
-![alt text](<Screenshot (32).png>)
 ![alt text](<Screenshot (37).png>)
+![alt text](<Screenshot (32).png>)
 
 
 ## RESULT:
