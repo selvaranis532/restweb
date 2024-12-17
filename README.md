@@ -111,57 +111,8 @@ rest.html
     </body>        
 </html>
 
-
-contact.html
-
-<html>
-    <head>
-        <title> CONTACT </title>
-    </head>
-    <style>
-        
-        body{
-        
-            background-image: url("bg.pg.jpg");
-            background-size: cover;
-            background-position: center;
-        }
-        body{
-            display: inline blocks;
-            margin:0 600px;
-            font-family:Georgia;
-            text-decoration: none;
-            font-size: 23px;
-            font-weight: bolder;
-            color: blue;
-            position:absolute;
-            top: 200px;
-        }
-    </style>
-    <div class="nav-list">
-        
-        <a href="rest.html">Home</a>
-        <a href="contact.html">contact</a>
-        <a href="menu.html">menu</a>
-        <a href="admin.html">Administration</a>
-
-        </div>
-    <center>
-        <section id="contact">  
-            <h1 style="color:black">contact<h1>
-            <h4  style="color:black">+91 8124623588<br> Manasa resuturant@gmail.com</h4>
-            <P  style="color:black">3/28 kovil street  veerthangal vellore-632520 <br>
-                <br> contact us to place the order<br>
-            <hr> SAVOUR THE FLAVOUR
-            </P>
-         </section> 
-    </center>
-</body>
-</html>
-
 menu.html
 
-menu.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -349,7 +300,7 @@ menu.html
         }
 
         footer a:hover {
-            color: #ecf0f1;
+            color: white;
         }
 
         @media (max-width: 768px) {
@@ -428,13 +379,96 @@ menu.html
 
 </body>
 </html>
+ contact.hml
+
+ <html>
+    <head>
+        <title> CONTACT </title>
+    </head>
+    <style>
+        
+        body{
+        
+            background-image: url("bg.pg.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        body{
+            display: inline blocks;
+            margin:0 600px;
+            font-family:Georgia;
+            text-decoration: none;
+            font-size: 23px;
+            font-weight: bolder;
+            color: blue;
+            position:absolute;
+            top: 200px;
+        }
+    </style>
+    <div class="nav-list">
+        
+        
+
+        </div>
+    
+        <section id="contact">  
+            <h1 style="color:black">contact<h1>
+            <h4  style="color:black">+91 8124623588<br> Manasa resuturant@gmail.com</h4>
+            <P  style="color:black">3/28 kovil street  veerthangal vellore-632520 <br>
+                <br> contact us to place the order<br>
+            <hr> SAVOUR THE FLAVOUR
+            </P>
+         </section> 
+    </center>
+</body>
+</html><html>
+    <head>
+        <title> CONTACT </title>
+    </head>
+    <style>
+        
+        body{
+        
+            background-image: url("bg.pg.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        body{
+            display: inline blocks;
+            margin:0 600px;
+            font-family:Georgia;
+            text-decoration: none;
+            font-size: 23px;
+            font-weight: bolder;
+            color: blue;
+            position:absolute;
+            top: 200px;
+        }
+    </style>
+    <div class="nav-list">
+        
+        
+
+        </div>
+    
+        <section id="contact">  
+            <h1 style="color:black">contact<h1>
+            <h4  style="color:black">+91 8124623588<br> Manasa resuturant@gmail.com</h4>
+            <P  style="color:black">3/28 kovil street  veerthangal vellore-632520 <br>
+                <br> contact us to place the order<br>
+            <hr> SAVOUR THE FLAVOUR
+            </P>
+         </section> 
+    </center>
+</body>
+</html>
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (35).png>)
-![alt text](<Screenshot (31).png>)
-![alt text](<Screenshot (37).png>)
-![alt text](<Screenshot (32).png>)
+![alt text](<Screenshot (40)-1.png>)
+![alt text](<Screenshot (42).png>)
+![alt text](<Screenshot (41).png>)
+![alt text](<Screenshot (39).png>)
 
 
 ## RESULT:
